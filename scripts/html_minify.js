@@ -5,7 +5,7 @@ function hexoMinify(data) {
   if (!minify) minify = require('html-minifier').minify
   return minify(data, {
     collapseWhitespace: true,
-    removeComments: true,
+    // removeComments: true, enable this read more doesn't work
     removeRedundantAttributes: true,
     removeScriptTypeAttributes: true,
     removeStyleLinkTypeAttributes: true,

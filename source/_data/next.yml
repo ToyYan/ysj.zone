@@ -1,5 +1,14 @@
 scheme: Gemini
 
+menu:
+  home: / || home
+  #about: /about/ || user
+  tags: /tags/ || tags
+  #categories: /categories/ || th
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+
 footer:
   powered:
     enable: false
@@ -7,3 +16,6 @@ footer:
   theme:
     enable: false
     version: false
+  beian:
+    enable: true
+    icp: 沪ICP备12045217号-2
