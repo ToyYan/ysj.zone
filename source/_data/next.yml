@@ -1,0 +1,9 @@
+scheme: Gemini
+
+footer:
+  powered:
+    enable: false
+    version: false
+  theme:
+    enable: false
+    version: false
