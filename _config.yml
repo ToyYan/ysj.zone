@@ -59,8 +59,3 @@ pagination_dir: page
 
 # Extensions
 theme: next
-
-deploy:
-  type: git
-  repo: git@github.com:ToyYan/ysji.net.git
-  branch: public
