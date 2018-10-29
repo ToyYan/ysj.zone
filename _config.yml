@@ -59,9 +59,3 @@ pagination_dir: page
 
 # Extensions
 theme: next
-
-# Deploy
-deploy:
-  type: git
-  repo: git@git.dev.tencent.com:yscnysj/ysji.net.git
-  branch: master
