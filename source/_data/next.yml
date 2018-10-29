@@ -16,6 +16,3 @@ footer:
   theme:
     enable: false
     version: false
-  beian:
-    enable: true
-    icp: 沪ICP备12045217号-2
