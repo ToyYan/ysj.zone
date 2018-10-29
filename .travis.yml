@@ -11,6 +11,7 @@ before_install:
   - npm install
 script: 
   - npm run build
+  - echo ysji.net > public/CNAME
 
 deploy:
   provider: pages

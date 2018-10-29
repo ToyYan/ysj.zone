@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "hexo s -w",
-    "build": "hexo g",
-    "deploy": "hexo d -g"
+    "build": "hexo g"
   },
   "hexo": {
     "version": "3.8.0"
