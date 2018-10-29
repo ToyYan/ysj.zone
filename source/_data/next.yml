@@ -16,3 +16,5 @@ footer:
   theme:
     enable: false
     version: false
+
+google_analytics: UA-6889443-1
