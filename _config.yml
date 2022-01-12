@@ -10,7 +10,7 @@ timezone: Asia/Shanghai
 # URL
 url: http://ysj.zone
 root: /
-permalink: :year/:month/:day/:title/
+permalink: article/:year-:month-:day/:title.html
 permalink_defaults:
 
 # Directory
@@ -24,8 +24,8 @@ i18n_dir: :lang
 skip_render: 
 
 # Writing
-new_post_name: :year/:month/:day/:title.md
 default_layout: post
+new_post_name: :year/:title.md
 titlecase: false
 filename_case: 0
 render_drafts: false
