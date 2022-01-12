@@ -24,8 +24,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: build
+    - name: Build
       run: |
+        sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+        git submodule update --init --recursive
+        npm install
         npm i hexo-cli
         npm run build
         echo ysj.zone > public/CNAME
