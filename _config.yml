@@ -10,8 +10,8 @@ timezone: Asia/Shanghai
 # URL
 url: http://ysj.zone
 root: /
-permalink: article/:year-:month-:day/:title.html
-permalink_defaults:
+permalink: :year-:month-:day/:title.html
+permalink_defaults: 
 
 # Directory
 source_dir: source

@@ -23,6 +23,10 @@ post_meta:
     another_day: false
   categories: true
 
+post_edit:
+  enable: true
+  url: https://github.com/ToyYan/ysj.zone/tree/master/source/
+
 
 favicon:
   small: /images/favicon-16x16-next.png
