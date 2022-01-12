@@ -38,6 +38,7 @@ highlight:
   auto_detect: false
   tab_replace:
 
+
 index_generator:
   path: ''
   per_page: 10
