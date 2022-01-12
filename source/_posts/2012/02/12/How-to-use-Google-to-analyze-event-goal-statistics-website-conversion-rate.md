@@ -42,7 +42,7 @@ ga.js 跟踪代码中提供了事件跟踪功能，该功能可以独立于网�
 
 ``` html
 <a onClick=”_gaq.push(['_trackEvent', 'char','qq']);” href=”咨询链接” target=”_blank”>QQ咨询</a>
-<a onClick=”_gaq.push(['_trackEvent', 'char','leyu']);” href=”咨询链接” target=”_blank”>乐语咨询</a>
+<a onClick=”_gaq.push(['_trackEvent', 'char','leyu']);” href=”咨询链接” target=”_blank”>网络咨询</a>
 ```
 
 通过以上设置，我们就可以统计在用户点击咨询链接的时候统计到用户的行为。
