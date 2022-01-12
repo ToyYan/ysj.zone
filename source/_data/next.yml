@@ -1,4 +1,4 @@
-scheme: Gemini
+scheme: Pisces
 
 reminder: true
 
@@ -71,3 +71,13 @@ google_analytics: UA-6889443-1
 
 
 darkmode: true
+
+gitalk:
+  enable: true
+  github_id: ToyYan
+  repo: ysj.zone
+  client_id: ade43376162f08a8b73c
+  client_secret: 5e1c6a68b370e1148e1910cad6c66263e1640a77
+  admin_user: ToyYan
+  distraction_free_mode: true 
+  language: zh-CN
