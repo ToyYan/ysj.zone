@@ -27,5 +27,5 @@ function hexoMinifyJs(data) {
 
 hexo.extend.filter.register('after_render:js', hexoMinifyJs)
 
-const meta_generator = require('hexo/lib/plugins/filter/meta_generator')
-hexo.extend.filter.unregister('after_render:html', meta_generator)
+// const meta_generator = require('hexo/lib/plugins/filter/meta_generator')
+// hexo.extend.filter.unregister('after_render:html', meta_generator)
