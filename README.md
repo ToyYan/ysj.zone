@@ -1,3 +1,3 @@
-# ysji.net
-[![Build Status](https://travis-ci.com/ToyYan/ysji.net.svg?branch=master)](https://travis-ci.com/ToyYan/ysji.net)
-my blog.
+# ysj.zone
+[![Build Status](https://github.com/ToyYan/ysji.net/actions/workflows/publish.yml/badge.svg)](https://github.com/ToyYan/ysji.net/actions)
+我的博客
