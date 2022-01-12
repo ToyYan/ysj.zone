@@ -1,11 +1,11 @@
 # Site
-title: sj's blog
+title: ysj blog
 subtitle: A Dreamy World
 description: a man's dreams are an index to his greatness
 keywords:
-author: sj
+author: ysj
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 url: http://ysj.zone
@@ -21,7 +21,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
 
 # Writing
 new_post_name: :year/:month/:day/:title.md

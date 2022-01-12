@@ -28,6 +28,7 @@ jobs:
       run: |
         sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
         git submodule update --init --recursive
+        mv ./next.yml ./themes/next/_config.yml
         npm install
         npm i hexo-cli
         npm run build

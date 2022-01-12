@@ -1,20 +1,62 @@
 scheme: Gemini
 
+reminder: true
+
+minify: true
+
 menu:
-  home: / || home
-  #about: /about/ || user
-  tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+avatar:
+  # Replace the default image and set the url here.
+  url: /images/avatar.gif
+  # If true, the avatar will be dispalyed in circle.
+  rounded: false
+  # If true, the avatar will be rotated with the cursor.
+  rotated: false
+
+social:
+  GitHub: https://github.com/ToyYan || fab fa-github
+  Weibo: https://weibo.com/u/1653122605 || fab fa-weibo
+  Twitter: https://twitter.com/yanshiji || fab fa-twitter
+
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: false
+
 
 footer:
-  powered:
-    enable: false
-    version: false
+  icon:
+    name: fa fa-heart
+    animated: false
+    color: "#ff0000"
+  powered: false
+  copyright:
   theme:
     enable: false
     version: false
 
+menu_settings:
+  icons: true
+  badges: false
+
 google_analytics: UA-6889443-1
+
+
+darkmode: true
